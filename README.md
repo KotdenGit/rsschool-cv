@@ -1,2 +1,2 @@
-https://github.com/KotdenGit/rsschool-cv/cv
+https://github.com/KotdenGit/rsschool-cv/
 # rsschool-cv

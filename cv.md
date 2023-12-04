@@ -24,3 +24,36 @@ I always had a dream of being a programmer, I knew that this requires a lot of s
 - Java(basic knowledge)
 - bootstrap
 - Node
+
+## Code Example
+
+function parseGuess(guess) { var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
+
+if (guess === null || guess.length !== 2) { alert("Oops, please enter a letter and a number on the board."); } else { var firstChar = guess.charAt(0); var row = alphabet.indexOf(firstChar); var column = guess.charAt(1);
+
+ if (isNaN(row) || isNaN(column)) {
+ 	alert("Oops, that isn't on the board.");
+ } else if (row < 0 || row >= model.boardSize ||
+            column < 0 || column >= model.boardSize) {
+ 	alert("Oops, that's off the board!");
+ } else {
+ 	return row + column;
+ }
+} return null; }
+
+## Experience
+
+- **2021(Sep)-2023(Jun) at Exadel**
+    - Junior Frontend Developer
+
+## Education
+
+- **Leverix**
+    - The Complete JavaScript Course 2021: Livel UP!
+
+## Languages
+
+- **Belarusian** - Native speaker
+- **Russian** - Native speaker
+- **English** - B2
+- **Polish** - A2
